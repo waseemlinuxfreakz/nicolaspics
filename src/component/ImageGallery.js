@@ -25,7 +25,7 @@ function ImageGallery({ dt, handleload }){
     const formBody = Object.keys(data).map(key => encodeURIComponent(key) + '='
      + encodeURIComponent(data[key])).join('&');
 
-  fetch("http://react.rasoulsayyah.com/apiconnection/", {
+  fetch("http://nicolas.99design.website/apiconnection/", {
     method:"POST",
     headers:{
         "Content-Type":"application/x-www-form-urlencoded"
